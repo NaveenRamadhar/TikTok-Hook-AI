@@ -18,7 +18,7 @@ generateBtn.addEventListener("click", async () => {
   output.textContent = "Generating hooks...";
 
   try {
-    const res = await fetch("http://localhost:3000/generate", {
+    const res = await fetch("https://tiktok-hook-ai.onrender.com/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ topic, tone }), // NEW: include tone
