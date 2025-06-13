@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend Build (if added later)
+dist/
+build/
+
+# IDE/editor junk
+.vscode/
+.idea/
